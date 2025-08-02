@@ -1,0 +1,24 @@
+
+  - 
+    ros_topic_name: "/camera/color/image_raw"
+    gazebo_topic_name: "/world/default/model/x500_depth_0/link/camera_link/sensor/IMX214/image"
+    ros_type_name: "sensor_msgs/msg/Image"
+    gz_type_name: "gz.msgs.Image"
+
+  - 
+    ros_topic_name: "/camera/color/camera_info"
+    gazebo_topic_name: "/world/default/model/x500_depth_0/link/camera_link/sensor/IMX214/camera_info"
+    ros_type_name: "sensor_msgs/msg/CameraInfo"
+    gz_type_name: "gz.msgs.CameraInfo"
+
+  - 
+    ros_topic_name: "/camera/depth/points"
+    gazebo_topic_name: "/depth_camera/points"
+    ros_type_name: "sensor_msgs/msg/PointCloud2"
+    gz_type_name: "gz.msgs.PointCloudPacked"
+
+  - 
+    ros_topic_name: "/camera/imu"
+    gazebo_topic_name: "/world/default/model/x500_depth_0/link/camera_link/sensor/camera_imu/imu"
+    ros_type_name: "sensor_msgs/msg/Imu"
+    gz_type_name: "gz.msgs.IMU"
